@@ -18,5 +18,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         // Interfaz agregar nueva tarea
         setContentView(R.layout.add_task_layout)
+
+        // Interfaz vista tarea
+        //SsetContentView(R.layout.task_layout)
     }
 }
